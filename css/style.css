@@ -4,6 +4,7 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -86,10 +87,7 @@ body {
 }
 
 #buttons {
-    position: absolute;
-    bottom: 10px;
-    left: 50%;
-    transform: translateX(-50%);
+    margin-top: 10px;
 }
 
 button {
@@ -101,6 +99,7 @@ button {
     cursor: pointer;
     border-radius: 5px;
 }
+
 
 button:hover {
     background-color: #333;
